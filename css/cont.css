@@ -1,0 +1,27 @@
+.page-name {
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin: 20px 0;
+}
+.contacts{
+    margin-left: 40px;
+    padding: 50px;
+}
+p {
+    margin-top: 20px;
+    font-size: 32px;
+    color:#2f0d17
+
+}
+h2{    
+    color:#5f3842;
+    font-size: 42px;
+    margin-left: -15px;
+}
+.carta {
+    display: block;  
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto;    
+}

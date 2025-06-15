@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css">
+
+    <title>The Flower Lab.</title>
+</head>
+<body>
+    <header>
+        <div class="header-content1">
+            <div class="header-links">
+                <a href="aboutus.html"> О нас</a>
+                <a href="#"> Отзывы</a>
+                <a href="#"><img src="telephone.png" alt="Телефон"><u>+7 999 000 99 00</u></a>
+            </div>
+            <div class="header-img">
+               <a href="#"><img src="Korzinaa.png" alt="Корзина"></a> 
+               <a href="#"><img src="Izbrannoe.png" alt="Избранное"></a> 
+               <a href="#auth-popup"><img src="LK.png" alt="Личный кабинет"></a>            
+            </div>
+        </div>
+       <a href="#"><p class="label">The Flower Lab.</p></a>
+       <div class="header-content2">
+        <label for="menu-toggle" class="menu-label">
+            <img id="Menu" src="Menu.png" alt="Меню">
+        </label>
+                    <div class="search-container">
+                <img src="loupe.png" alt="Поиск" class="search-icon">
+                <input type="text" class="search-input" placeholder="Поиск...">
+            </div>
+       </div>
+    <nav>
+        <a href="Untitled-1.html" class="nav-item">Главная</a>
+        <a href="catalog.html" class="nav-item">Все товары</a>
+        <a href="#" class="nav-item">Новинки</a>
+        <a href="#" class="nav-item">Акции</a>
+        <a href="create.html" class="nav-item">Создать букет</a>
+        <a href="#" class="nav-item">Абонемент "Цветы домой"</a>
+    </nav>
+</header>
+<input type="checkbox" id="menu-toggle" class="menu-checkbox">
+<div class="sidebar">
+    <label for="menu-toggle" class="close-btn">×</label> 
+    <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="catalog.html">Смотреть все</a></li>
+        <li><a href="#">Букеты</a></li>
+        <li><a href="#">Новинки</a></li>
+        <li><a href="#">Акции</a></li>
+        <li><a href="#">Создать букет</a></li>
+        <li><a href="#">Абонемент "Цветы домой"</a></li>
+        <li><a href="#">Цветы</a></li>
+        <li><a href="plants.html">Комнатные растения</a></li>
+        <li><a href="cont.html">Контакты</a></li>
+        <li><a href="blog.html">Блог</a></li>
+
+
+    </ul>
+</div>
+<div class="popup" id="auth-popup">
+    <div class="popup-content">
+        <a href="#" class="close-popup">&times;</a>
+        <h1>Зарегистрироваться</h1>
+        <hr>
+        <form>
+            <label for="username" class="username">Имя пользователя</label>
+            <input type="text" id="username" name="username" placeholder="Введите имя пользователя" size="18" maxlength="32" required>
+            <label for="username" class="username">Контактный телефон</label>
+            <input type="text" id="username" name="username" placeholder="+ 0 (000) 000 00 00" size="18" maxlength="32"required>
+            <label for="password" class="username">Пароль</label>
+            <input type="password" id="password" name="password" placeholder="Введите пароль" size="8" maxlength="128" required>
+        </form>
+             <div class="checkbox-group">
+                 <input type="checkbox" id="privacy" name="privacy" >
+                 <label for="privacy" class="agr">Я согласен на обработку персональных данных</label>
+             </div>
+           <button type="submit" class="register-button">Зарегистрироваться</button>
+           <div class="privacy-note">
+              Нажимая кнопку "Зарегистрироваться" вы соглашаетесь с <a href ="#"> условиями обработки персональных данных </a> и <a href="#"> публичной офертой.</a>
+           </div>
+           <div class="login-link">
+                 Уже есть аккаунт? <a href="#">Войти</a>
+           </div>
+        </form>
+    </div>
+</div>
+<main>
+    <h1 class="page-name">Блог</h1>
+    <div class="container">
+        <div class="card">
+            <img src="blog.png" alt="Комнатные растения">
+            <div class="card-content">
+                <h3>Пусти домой корни</h3>
+                <p>Коллекция стильных комнатных растений в горшках для вашего дома или офиса. Создайте свой собственный оазис в городской квартире!</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="blog2.webp" alt="Пионовидные розы">
+            <div class="card-content">
+                <h3>Язык цветов: Расшифруйте послание вашего букета!</h3>
+                <p>Хотите сказать "люблю", но не находите нужных слов? Цветы говорят громче! Узнайте, как роза выразит страсть, а ромашка – нежность</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="blog3.jpg" alt="Георгины">
+            <div class="card-content">
+                <h3>Идеальные цветы для каждого знака зодиака</h3>
+                <p> Подарите букет, созданный специально для вашего близкого человека, и он оценит вашу внимательность и заботу!</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="blog4.jpeg" alt="Комнатные растения">
+            <div class="card-content">
+                <h3>Как выбрать цветы для вашего дома: Создаем уют и гармонию</h3>
+                <p>Мы расскажем, как подобрать цветы для разных комнат, чтобы создать атмосферу уюта и гармонии. Наши советы помогут вам создать идеальное пространство для отдыха и вдохновения</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="blog5.webp" alt="Пионовидные розы">
+            <div class="card-content">
+                <h3>Пионовидные розы в коллекции</h3>
+                <p>Цветы, считающиеся самыми красивыми в мире, они отличаются своей красотой, изяществом и утонченностью.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="blog7.png" alt="Георгины">
+            <div class="card-content">
+                <h3>Главный цветок весны – эустома!</h3>
+                <p>Какие сорта мы отобрали для нашей весенней коллекции букетов и композиций</p>
+            </div>
+        </div>
+    </div>                   
+</main>
+<footer>
+        <div>
+            <a href="#"><p class="label-footer">The Flower Lab.</p></a>
+             <div class="copyright">
+                <p>© 2025 The Flower Lab.</p>
+         </div>
+</footer>
+</body>
+</html>

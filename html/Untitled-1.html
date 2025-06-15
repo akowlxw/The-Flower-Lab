@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Flower Lab.</title>
+</head>
+<body>
+    <header>
+        <div class="header-content1">
+            <div class="header-links">
+                <a href="aboutus.html"> О нас</a>
+                <a href="#"> Отзывы</a>
+                <a href="#"><img src="telephone.png" alt="Телефон"><u>+7 999 000 99 00</u></a>
+            </div>
+            <div class="header-img">
+               <a href="#"><img src="Korzinaa.png" alt="Корзина"></a> 
+               <a href="#"><img src="Izbrannoe.png" alt="Избранное"></a> 
+               <a href="#auth-popup"><img src="LK.png" alt="Личный кабинет"></a>            
+            </div>
+        </div>
+       <a href="#"><p class="label">The Flower Lab.</p></a>
+       <div class="header-content2">
+        <label for="menu-toggle" class="menu-label">
+            <img id="Menu" src="Menu.png" alt="Меню">
+        </label>
+                    <div class="search-container">
+                <img src="loupe.png" alt="Поиск" class="search-icon">
+                <input type="text" class="search-input" placeholder="Поиск...">
+            </div>
+       </div>
+    <nav>
+        <a href="Untitled-1.html" class="nav-item">Главная</a>
+        <a href="catalog.html" class="nav-item">Все товары</a>
+        <a href="#" class="nav-item">Новинки</a>
+        <a href="#" class="nav-item">Акции</a>
+        <a href="create.html" class="nav-item">Создать букет</a>
+        <a href="#" class="nav-item">Абонемент "Цветы домой"</a>
+    </nav>
+</header>
+<input type="checkbox" id="menu-toggle" class="menu-checkbox">
+<div class="sidebar">
+    <label for="menu-toggle" class="close-btn">×</label> 
+    <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="catalog.html">Смотреть все</a></li>
+        <li><a href="#">Букеты</a></li>
+        <li><a href="#">Новинки</a></li>
+        <li><a href="#">Акции</a></li>
+        <li><a href="#">Создать букет</a></li>
+        <li><a href="#">Абонемент "Цветы домой"</a></li>
+        <li><a href="#">Цветы</a></li>
+        <li><a href="plants.html">Комнатные растения</a></li>
+        <li><a href="cont.html">Контакты</a></li>
+        <li><a href="blog.html">Блог</a></li>
+
+
+    </ul>
+</div>
+<div class="popup" id="auth-popup">
+    <div class="popup-content">
+        <a href="#" class="close-popup">&times;</a>
+        <h1>Зарегистрироваться</h1>
+        <hr>
+        <form>
+            <label for="username" class="username">Имя пользователя</label>
+            <input type="text" id="username" name="username" placeholder="Введите имя пользователя" size="18" maxlength="32" required>
+            <label for="username" class="username">Контактный телефон</label>
+            <input type="text" id="username" name="username" placeholder="+ 0 (000) 000 00 00" size="18" maxlength="32"required>
+            <label for="password" class="username">Пароль</label>
+            <input type="password" id="password" name="password" placeholder="Введите пароль" size="8" maxlength="128" required>
+        </form>
+             <div class="checkbox-group">
+                 <input type="checkbox" class="privacy" name="privacy">
+                 <label for="privacy" class="agr">Я согласен на обработку персональных данных</label>
+             </div>
+           <button type="submit" class="register-button">Зарегистрироваться</button>
+           <div class="privacy-note">
+            Нажимая кнопку "Зарегистрироваться" вы соглашаетесь с <a href ="#"> условиями обработки персональных данных </a> и <a href="#"> публичной офертой.</a>           
+        </div>
+           <div class="login-link">
+                 Уже есть аккаунт? <a href="#">Войти</a>
+           </div>
+        </form>
+    </div>
+</div>
+<main>
+    <br>
+    <h1 class="page-name">Актуальные предложения</h1>
+    <div class="slider-container">
+        <div class="slider-wrapper">
+            <div class="slider">
+                 <div class="slide" id="slide1">
+                    <div class="product-card">
+                       <a href="#"><img src="cycle.png" alt="Товар 1" class="product-image"></a>
+                        <p class="product-description">Cycle №33<br><br> Экибана из соцветий и веток молодой японский магнолии - сочетание нежности и индивидуальности   <br><br> 12 799 ₽ </p>
+                        <div class="product-actions">
+                            <button class="add-to-cart">Добавить в корзину</button>
+                            <button class="add-to-favorites"><img src="heart.png" alt="Добавить в избранное"></button>
+                        </div>
+                    </div>
+                     <div class="product-card">
+                        <a href="#"> <img src="cycle2.png" alt="Товар 2" class="product-image"></a>
+                         <p class="product-description">Cycle №4<br><br> Элегантный cycle в малиновых тонах с яркой, свежей, зеленой листвой цветущей магнолии макуро<br><br> 12 550 ₽</p>
+                         <div class="product-actions">
+                            <button class="add-to-cart">Добавить в корзину</button>
+                             <button class="add-to-favorites"><img src="heart.png" alt="Добавить в избранное"></button>
+                         </div>
+                     </div>
+                     <div class="product-card">
+                        <a href="#"><img src="cycle1.jpg" alt="Товар 4" class="product-image"></a>
+                        <p class="product-description">Cycle №12<br><br> Легкий и светлый cycle с белыми и розовыми лилиями, маттиолой, ветками цветущей магнолии и нежной зеленью <br><br> 15 300 ₽</p>
+                        <div class="product-actions">
+                            <button class="add-to-cart">Добавить в корзину</button>
+                            <button class="add-to-favorites"><img src="heart.png" alt="Добавить в избранное"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide" id="slide2">
+                    <div class="product-card">
+                        <a href="#"><img src="buket1.webp" alt="Товар 3" class="product-image"></a>
+                        <p class="product-description">Букет №45<br><br> Воздушный букет из свежих,  цветущих дельфиниумов в голубых пастельных оттенках<br><br> 3 550 ₽</p>
+                        <div class="product-actions">
+                            <button class="add-to-cart">Добавить в корзину</button>
+                            <button class="add-to-favorites"><img src="heart.png" alt="Добавить в избранное"></button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <a href="#"><img src="buket2.png" alt="Товар 5" class="product-image"></a>
+                        <p class="product-description">Букет №5<br><br> Пышный букет с голубой гортензией, персиковыми розами, гвоздиками и ирисами <br><br> 8 100 ₽</p>
+                        <div class="product-actions">
+                            <button class="add-to-cart">Добавить в корзину</button>
+                            <button class="add-to-favorites"><img src="heart.png" alt="Добавить в избранное"></button>
+                        </div>
+                    </div>
+                     <div class="product-card">
+                        <a href="#"><img src="buket3.jpg" alt="Товар 6" class="product-image"></a>
+                         <p class="product-description">Букет №777<br><br> Яркий и насыщенный букет в розовых тонах, собранный из гвоздик, роз и лизиантуса  <br><br> 7 700 ₽</p>
+                         <div class="product-actions">
+                            <button class="add-to-cart">Добавить в корзину</button>
+                             <button class="add-to-favorites"><img src="../images/heart.png" alt="Добавить в избранное"></button>
+                         </div>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+<div class="slider-indicators">
+    <span class="indicator active" data-slide="0"></span>
+    <span class="indicator" data-slide="1"></span>
+</div>
+
+    <br><br>                   
+</main>
+<footer>
+        <div>
+            <a href="#"><p class="label-footer">The Flower Lab.</p></a>
+             <div class="copyright">
+                <p>© 2025 The Flower Lab.</p>
+         </div>
+</footer>
+</body>
+<script>
+    const slider = document.querySelector('.slider');
+    const indicators = document.querySelectorAll('.indicator');
+
+    let currentSlide = 0;
+    const totalSlides = 2;
+
+    function updateSlider() {
+        slider.style.transform = `translateX(-${currentSlide * 50}%)`;
+
+        indicators.forEach((indicator, index) => {
+            indicator.classList.toggle('active', index === currentSlide);
+        });
+    }
+
+    indicators.forEach(indicator => {
+        indicator.addEventListener('click', () => {
+            currentSlide = parseInt(indicator.dataset.slide);
+            updateSlider();
+        });
+    });
+
+    setInterval(() => {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateSlider();
+    }, 5000);
+
+    updateSlider(); // начальная инициализация
+</script>
+
+</body>
+
+</html>
